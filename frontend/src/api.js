@@ -1,6 +1,6 @@
 const API =
     import.meta.env.VITE_API_URL ||
-    'http://localhost:4000/api';
+    'https://staffsync-backend-3gol.onrender.com/api';
 
 // Send API requests to the backend
 export async function request(path, { token, ...options } = {}) {
